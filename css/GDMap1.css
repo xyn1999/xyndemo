@@ -1,0 +1,38 @@
+input{
+	width: 200px;
+	height:60px;
+	background-color: #F4F4F4;
+	border:0 #3388FF;
+	padding: ;
+	
+}
+input::-webkit-input-placeholder {
+    color: #3388FF;
+    text-align: center;
+	font-weight: 800;
+	font-family: "blackadder itc";
+}
+.search{
+	margin-left: 50px;
+}
+.search,#butt{
+	float: left;
+	}
+	#butt{
+		margin-left: 51px;
+	}
+	button{
+		width: 100px;
+		height:60px;
+		background: #4CAF50;
+		border: 1px solid #eee;
+		border-radius: 15px;
+	}
+	.top{
+		background:#4CAF50;
+		height:60px;
+	}
+	/*#map{
+		margin-top:60px;
+		margin-bottom: 0%;
+	}

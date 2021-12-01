@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!-- saved from url=(0052)https://leafletjs.com/examples/wms/wms-example1.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<title>TMS example - Leaflet</title>
+
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<link rel="shortcut icon" type="image/x-icon" href="https://leafletjs.com/examples/wms/docs/images/favicon.ico">
+
+    <link rel="stylesheet" href="css/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="">
+    <script src="js/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
+
+
+	<style>
+		html, body {
+			height: 100%;
+			margin: 0;
+		}
+		#imap {
+			width: 600px;
+			height: 400px;
+		}
+	</style>
+
+	
+</head>
+<body class="">
+
+<div id="imap"></div>
+
+<script type="text/javascript">
+
+	var xynmap = L.map('imap', {
+		center: [-17, -67],
+		zoom: 3
+	});
+
+	//var tms_example = L.tileLayer('http://base_url/tms/1.0.0/example_layer@png/{z}/{x}/{y}.png', {
+    //tms: true
+//}).addTo(xynmap);
+
+</script>
+</body>
+</html>
